@@ -1,0 +1,339 @@
+/* Start */
+.title-content {
+    padding: 0 1rem 0 0;
+    text-align: right;
+    font-weight: 500;
+}
+
+.content-admin .btn-create {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15rem;
+    background-color: green;
+    color: var(--font-primary);
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.content-admin .btn-create:hover {
+    background-color: rgb(0, 100, 0);
+}
+
+.content-admin .btn-create i, .btn-back i {
+    font-size: 1.4rem;
+}
+
+.content-admin .btn-create label:hover, .btn-back label:hover {
+    cursor: pointer;
+}
+
+.content-admin .btn-back {
+    padding: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10rem;
+    background-color: red;
+    color: var(--font-primary);
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.content-admin .btn-edit {
+    padding: .5rem .8rem;
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    background-color: yellow;
+    color: var(--font-secondary);
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.content-admin .btn-edit:hover {
+    background-color: rgb(190, 190, 0);
+}
+
+.content-admin .btn-show {
+    padding: .5rem .8rem;
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    background-color: var(--primary);
+    color: var(--font-primary);
+    border-radius: .5rem;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.content-admin .btn-show:hover {
+    background-color: #070553;
+}
+
+.content-admin .btn-delete {
+    padding: .8rem 1.8rem;
+    display: flex;
+    justify-content: center;
+    width: 2rem;
+    background-color: red;
+    color: var(--font-primary);
+    border-radius: .5rem;
+    border: none;
+    text-decoration: none;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.content-admin .btn-delete:hover, .btn-back:hover {
+    background-color: rgb(197, 0, 0);
+    cursor: pointer;
+}
+
+/* Jumbotron Start */
+.jb-content {
+    padding: 1rem;
+    background-color: var(--thirdy);
+}
+
+.jb-content .jb-title label {
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.jb-content .jb-title label .bem-title {
+    text-shadow: 1px 1px 1px var(--font-secondary);
+    color: var(--font-primary);
+}
+
+.jb-content .jb-title label span {
+    color: yellow;
+}
+
+.jb-content .row {
+    padding: 1rem 0 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.jb-content .row .cta-content {
+    width: 15rem;
+}
+
+.jb-content .row .cta-content .cta-title {
+    margin: 0 0 1rem;
+}
+
+.jb-content .row .cta-content a {
+    padding: .5rem;
+    background-color: var(--primary);
+    border-radius: .5rem;
+    color: var(--font-primary);
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.jb-content .row .cta-content a:hover {
+    background-color: #070553;
+}
+
+.jb-content .row .step-content, .action-content {
+    width: 15rem;
+}
+
+.jb-content .row .step-content .step-title, .action-content .action-title {
+    margin: 0 0 .5rem;
+}
+
+.jb-content .row .step-content a, .action-content a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.jb-content .row .step-content a label:hover, .action-content a label:hover {
+    cursor: pointer;
+}
+
+.jb-content .row .step-content a i, .action-content a i {
+    margin: 0 .5rem 0 0;
+    color: var(--font-secondary);
+}
+/* Jumbotron End */
+
+/* Main Start */
+.main-content {
+    display: flex;
+}
+
+.main-content .news-content {
+    margin: .5rem .25rem 0 0;
+    display: block;
+    width: 50%;
+}
+
+.main-content .news-content .total-content {
+    padding: 1rem;
+    background-color: var(--thirdy);
+}
+
+.main-content .news-content .total-content .btn-total-content {
+    margin: .5rem 0 0;
+    padding: 1rem 0 0;
+    display: flex;
+    border-top: 2px solid var(--font-secondary);
+}
+
+.main-content .news-content .total-content .btn-total-content .peaces-one, .peaces-two {
+    width: 50%;
+}
+
+.main-content .news-content .total-content .btn-total-content .peaces-one a, .peaces-two a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.main-content .news-content .total-content .btn-total-content .peaces-one a i, .peaces-two a i {
+    color: var(--font-secondary);
+}
+
+.main-content .news-content .total-content .btn-total-content .peaces-one a label:hover, .peaces-two a label:hover {
+    cursor: pointer;
+}
+
+.main-content .activity-content {
+    margin: .5rem 0 0;
+    padding: 1rem;
+    background-color: var(--thirdy);
+}
+
+.main-content .activity-content .activity-session {
+    margin: .5rem 0 0;
+    padding: 1rem 0 0;
+    border-top: 2px solid var(--font-secondary);
+}
+
+.main-content .activity-content .activity-session .main-activity {
+    margin: .5rem 0 0;
+    display: flex;
+}
+
+.main-content .activity-content .activity-session .main-activity .img-news {
+    margin: 0 1rem 0 0;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content .activity-content .activity-session .main-activity .img-news img {
+    width: 100%;
+}
+
+.main-content .activity-content .activity-session .main-activity .date-news {
+    width: 70%;
+}
+
+.main-content .activity-content .activity-session .main-activity .date-news .title-date {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--font-secondary);
+}
+
+.main-content .activity-content .activity-session .main-activity .date-news .title-date h3 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.main-content .activity-content .activity-session .main-activity .date-news .title-date span {
+    display: flex;
+    align-items: center;
+    font-size: .8rem;
+    font-weight: 600;
+}
+
+.main-content .activity-content .activity-session .main-activity .date-news p {
+    text-align: justify;
+    margin: 0 0 1rem;
+    font-size: .8rem;
+}
+
+.main-content .activity-content .activity-session .main-activity .date-news a {
+    padding: .5rem 1.4rem;
+    background-color: var(--primary);
+    border-radius: .5rem;
+    text-decoration: none;
+    color: var(--font-primary);
+}
+
+.main-content .activity-content .activity-session .main-activity .date-news a:hover {
+    background-color: #070553;
+}
+
+.main-content .form-content {
+    margin: .5rem 0 0 .25rem;
+    padding: 1rem;
+    width: 50%;
+    background-color: var(--thirdy);
+}
+
+.main-content .form-content form {
+    margin: .5rem 0 0;
+    padding: 1rem 0 0;
+    border-top: 2px solid var(--font-secondary);
+}
+
+.main-content .form-content form .form-input {
+    padding: 0 1rem 0 0;
+}
+
+.main-content .form-content form .form-input-file input {
+    margin: 0 0 .5rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-content .form-content form .form-input input {
+    margin: .25rem 0;
+    padding: .5rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+.main-content .form-content form .btn-submit {
+    display: flex;
+    justify-content: end;
+}
+
+.main-content .form-content form .btn-submit button {
+    margin: .5rem .25rem 0;
+    padding: .5rem 1rem .2rem;
+    border-radius: .5rem;
+    border: none;
+    font-size: 1.4rem;
+    color: white;
+}
+
+.main-content .form-content form .btn-submit .res:hover {
+    cursor: pointer;
+    background-color: rgb(128, 128, 0);
+}
+
+.main-content .form-content form .btn-submit .sub:hover {
+    cursor: pointer;
+    background-color: rgb(0, 54, 0);
+}
+/* Main End */
+/* End */

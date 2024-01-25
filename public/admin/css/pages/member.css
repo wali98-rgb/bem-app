@@ -1,0 +1,22 @@
+/* Start */
+.member {
+    margin: 1rem 0 0;
+    padding: 1rem;
+    background-color: var(--thirdy);
+}
+
+.member h1 {
+    margin: 0;
+}
+
+.member .member-content {
+    margin: .5rem;
+    padding: 1rem 0 0;
+    border-top: 2px solid var(--font-secondary);
+}
+
+.member .member-content table tr td table tr .font-title {
+    font-size: 1rem;
+    font-weight: 500;
+}
+/* End */

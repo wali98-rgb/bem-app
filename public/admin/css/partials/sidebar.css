@@ -1,0 +1,65 @@
+/* Start */
+.sidebar-left, .sidebar-right {
+    padding: .1rem 1rem .5rem;
+    background-color: var(--secondary);
+    color: var(--font-primary);
+    width: 20rem;
+    max-width: 20rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidebar-left a, .sidebar-right a {
+    margin: .5rem 0;
+    padding: .5rem;
+    background-color: var(--primary);
+    border-radius: .3rem;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: var(--font-primary);
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.sidebar-left a:hover, .sidebar-right a:hover {
+    background-color: var(--thirdy);
+    color: var(--font-secondary);
+}
+
+.sidebar-left a i, .sidebar-right a i {
+    font-size: 1.4rem;
+}
+
+.sidebar-left a label, .sidebar-right a label {
+    margin: 0 0 0 .5rem;
+}
+
+.sidebar-left .top-sidebar a {
+    justify-content: center;
+    background: none;
+    font-size: 1.4rem;
+}
+
+.sidebar-left .center-sidebar {
+    padding: .5rem 0 1rem;
+    border-top: 2px solid var(--font-primary);
+    border-bottom: 2px solid var(--font-primary);
+}
+
+.sidebar-left .bottom-sidebar a {
+    margin: 1rem 0 0;
+    justify-content: center;
+    background-color: red;
+}
+
+.sidebar-right .top-sidebar h1 {
+    display: flex;
+    justify-content: center;
+    font-size: 1.4rem;
+}
+
+.sidebar-right .center-sidebar {
+    padding: .5rem 0 0;
+    border-top: 2px solid var(--font-primary);
+}
+/* End */

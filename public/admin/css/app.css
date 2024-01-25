@@ -1,0 +1,29 @@
+:root {
+    --primary: #090580;
+    --secondary: #46458C;
+    --thirdy: #E8A9A9;
+    --bg: #F4D3D3;
+    --font-primary: #ffffff;
+    --font-secondary: #000000;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--bg);
+    font-family: 'Poppins', sans-serif;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.main .content-admin {
+    margin: 0 .5rem;
+    width: 100%;
+}

@@ -1,0 +1,9 @@
+{{ $member->name }}
+{{ $member->username }}
+{{ $member->dept }}
+{{ $member->prodi }}
+{{ $member->no_hp }}
+{{ $member->address }}
+{{ $member->job_title }}
+{{ $member->email }}
+{{ $member->password }}

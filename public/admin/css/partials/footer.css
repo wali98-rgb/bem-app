@@ -1,0 +1,35 @@
+/* Start */
+.footer {
+    margin: 1rem 0 0;
+    padding: .5rem;
+    background: none;
+    border-top: 2px solid var(--font-secondary);
+}
+
+.footer .foot {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer .foot h1 {
+    margin: 0;
+    font-size: .8rem;
+    color: var(--font-secondary);
+}
+
+.footer .foot h1 a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+.footer .foot h1 a:hover {
+    color: #070553;
+}
+
+.footer .foot span {
+    font-size: .8rem;
+    color: var(--font-secondary);
+    font-weight: 600;
+}
+/* End */

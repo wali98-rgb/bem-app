@@ -1,0 +1,71 @@
+/* Start */
+.navbar {
+    padding: .7rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--primary);
+    color: var(--font-primary);
+}
+
+.navbar .navbar-logo {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-logo button {
+    margin: 0 .4rem 0 0;
+    border: none;
+    background: none;
+    color: var(--font-primary);
+    font-weight: 600;
+    font-size: 1.4rem;
+}
+
+.navbar .navbar-logo button:hover {
+    color: var(--thirdy);
+}
+
+.navbar .navbar-logo label {
+    margin: 0 0 0 1rem;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.navbar .navbar-logo label span {
+    color: yellow;
+}
+
+.navbar .navbar-ex {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-ex label {
+    margin: 0 1rem 0 0;
+}
+
+.navbar .navbar-ex form input {
+    margin: 0 .5rem 0 0;
+    padding: .3rem .5rem;
+    border: none;
+    border-radius: .2rem;
+    color: var(--font-secondary);
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .navbar-ex button {
+    border: none;
+    background: none;
+    color: var(--font-primary);
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.navbar .navbar-ex button:hover {
+    color: var(--thirdy);
+}
+/* End */
