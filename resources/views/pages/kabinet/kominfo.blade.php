@@ -2,5 +2,8 @@
 
 @section('content')
     <br><br><br><br><br>
-    <h1>Ini kominfo</h1>
+    <section class="kominfo" id="kominfo">
+    <h1 class="structure-title"><span>Proker</span> Kominfo</h1>
+    
+    </section>
 @endsection

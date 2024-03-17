@@ -5,7 +5,7 @@
         <main class="content">
             <h3>Selamat Datang di</h3>
             <h1 class="hero-title">BEM <span>Indonesia Mandiri</span></h1>
-            <p>Kabinet Ascarya Satya</p>
+            <p>Kabinet Abhiprayagana</p>
         </main>
     </section>
 @endsection

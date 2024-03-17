@@ -1,8 +1,8 @@
 :root {
-    --primary: rgb(184, 13, 87);
-    --secondary: rgb(148, 11, 146);
-    --third: rgb(44, 0, 62);
-    --fourth: #EF4040;
+    --primary: rgb(207, 29, 13);
+    --secondary: rgb(119, 7, 7);
+    --third: rgb(117, 3, 12);
+    --fourth: #e01d1d;
     --bg: rgb(255, 255, 255);
 }
 
@@ -32,7 +32,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgba(105, 75, 105, 0.7);
+    background-color: rgba(191, 24, 6, 0.7);
     box-shadow: 0 0 10px 2px var(--third);
 }
 
@@ -177,13 +177,13 @@ body {
 /* Hero */
 .hero {
     display: flex;
-    background-image: url('../img/bg1.JPG');
+    background-image: url('../img/bg.png');
     background-size: cover;
     background-repeat: no-repeat;
     position: relative;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    min-height: 70vh;
 }
 
 .hero .content {
@@ -219,7 +219,7 @@ body {
     position: absolute;
     width: 100%;
     height: 30%;
-    background: linear-gradient(0deg, rgba(44, 0, 62, 1) 8%, rgba(44, 0, 62, 0) 50%);
+    /* background: linear-gradient(0deg, rgba(44, 0, 62, 1) 8%, rgba(44, 0, 62, 0) 50%); */
     bottom: 0;
 }
 
@@ -277,7 +277,7 @@ body {
 .visi-misi .visi-misi-visi .visi-visi .visi {
     text-align: center;
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 .visi-misi .visi-misi-misi {
@@ -298,7 +298,7 @@ body {
 .visi-misi .visi-misi-misi ul li {
     line-height: 1.5rem;
     font-size: 1.2rem;
-    font-weight: 100;
+    font-weight: 500;
 }
 
 /* Structure */
@@ -309,14 +309,20 @@ body {
 .structure .structure-img {
     margin: 0 7%;
     text-align: center;
-    background: linear-gradient(45deg, #fff, blue);
     border-radius: 3%;
 }
 
 .structure .structure-img img {
-    width: 30rem;
+    width: 60rem;
 }
 
+/* Kabinet */
+
+.kabinet {
+    padding: 100px;
+    text-align: center;
+    
+}
 /* Footer */
 .footer {
     padding: 1.4rem 7%;
@@ -552,4 +558,68 @@ body {
     html {
         font-size: 55%;
     }
+}
+
+/* Style untuk bagian struktur organisasi */
+/* Style untuk bagian struktur organisasi */
+.structure {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.structure-title {
+    font-size: 24px;
+    color: #333;
+}
+
+.structure-img {
+    margin-top: 20px;
+}
+
+.structure-img img {
+    max-width: 100%;
+}
+
+.structure-members {
+    margin-top: 20px;
+}
+
+.structure-subtitle {
+    font-size: 20px;
+    /* color: #666; */
+    margin-bottom: 10px;
+}
+
+.members-list {
+    list-style: none;
+    padding: 0;
+    display: flex; /* Menggunakan flexbox untuk layout horizontal */
+    justify-content: center; /* Pusatkan item secara horizontal */
+}
+
+.members-list li {
+    font-size: 16px;
+    /* color: #777; */
+    margin-bottom: 5px;
+    margin-right: 20px; /* Beri jarak antara masing-masing item */
+}
+
+.kabinet {
+    display: flex;
+    background-image: url('../img/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+}
+
+.kabinet-title {
+    font-size: 2.5rem;
+    color: orange;
+}
+.kabinet p {
+    font-size: 2rem;
+    color: var(--bg);
 }

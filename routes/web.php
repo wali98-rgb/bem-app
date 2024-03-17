@@ -43,6 +43,19 @@ Route::get('/kominfo', function() {
     return view('pages.kabinet.kominfo');
 });
 
+Route::get('/pendidikan', function() {
+    return view('pages.kabinet.pendidikan');
+});
+Route::get('/agama', function() {
+    return view('pages.kabinet.agama');
+});
+Route::get('/sosial', function() {
+    return view('pages.kabinet.sosial');
+});
+Route::get('/ekonomi', function() {
+    return view('pages.kabinet.ekonomi');
+});
+
 // Admin Routes
 Route::get('/index', function () {
     return view('admin.index');

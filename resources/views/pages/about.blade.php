@@ -8,9 +8,8 @@
             <div class="visi-visi">
                 <h1 class="visi-title">Visi</h1>
                 <p class="visi">
-                    Mewujudkan Badan Eksekutif Mahasiswa Indonesia Mandiri sebagai penggerak terwujudnya mahasiswa yang
-                    adaftif dan interaktif terhadap lingkungan kampus dan masyarakat serta menjunjung tinggi
-                    profesionalitas, berfokus pada pengembangan prestasi dan implementasi nilai-nilai integritas organisasi.
+                    Badan Eksekutif Mahasiswa sebagai wadah aspirasi, menjadi jembatan antara mahasiswa dan kampus
+                    , serta mendorong mahasiswa untuk peduli sesama, religius, kreatif, dan inovatif.
                 </p>
             </div>
             <div class="visi-img">
@@ -25,13 +24,15 @@
                 <h1 class="misi-title">Misi</h1>
                 <p class="misi">
                 <ul>
-                    <li>Menciptakan Badan Eksekutif Mahasiswa Indonesia Mandiri berasas kekeluargaan, profesional serta
-                        optimalisasi seluruh potensi dan aspirasi mahasiswa secara suportif.</li>
-                    <li>Menciptakan hubungan yang sinergis antara organisasi mahasiswa STMIK dan STIE STAN INDONESIA
-                        MANDIRI.</li>
-                    <li>Mengoptimalisasi pewadahan dan penyaluran minat bakat mahasiswa STMIK dan STIE STAN INDONESIA
-                        MANDIRI.</li>
-                    <li>Mewujudkan gerakan mahasiswa yang efektif dan terbuka.</li>
+                    <li>Menggali dan mawadahi aspirasi mahasiswa: mengadakan forum terbuka dan proaktif untuk menghimpun aspirasi mahasiswa
+                        diberbagai bidang kepentingan.
+                    </li>
+                    <li>Memperkuat komunikasi dan kolaborasi: mendorong partisipasi mahasiswa dalam kegiatan sosial dan keagamaan yang bertujuang untuk
+                        mmbantu sesama dan memperkuat nilai-nilai kemanusiaan dan keagamaan.
+                    </li>
+                    <li>Menyokong inovasi: mendukung proyek-proyek inovatif yang menghasilkan solusi dalam memecahkan masalah dan meningkatkan pengalaman
+                        belajar mahasiswa.
+                    </li>
                 </ul>
                 </p>
             </div>
